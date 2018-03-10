@@ -1,0 +1,20 @@
+package revisao2;
+
+public class Ex1 {
+	String pilha[];
+	
+	static String nome = "Paulo Roberto Oliveira.";
+	
+	
+	public static void removerPonto(String nome){
+		for (int i = 0; i < nome.length() ; i++)
+			if ( nome.charAt(i) == '.') 
+				nome.substring(0, i-1);
+	}
+	public static void main(String args[]){
+		System.out.println(nome);
+		removerPonto(nome);
+		System.out.println(nome);
+	}
+
+}

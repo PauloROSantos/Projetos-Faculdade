@@ -1,0 +1,11 @@
+package pagamentos;
+
+public class Credito extends FormaPagamento {
+
+	@Override
+	public double getDescontoPagamento() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

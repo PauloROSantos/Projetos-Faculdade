@@ -1,0 +1,5 @@
+package ecommerce;
+
+public abstract class Pokemon {
+
+}

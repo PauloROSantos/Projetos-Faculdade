@@ -1,0 +1,89 @@
+ALFKI;Alfreds Futterkiste;Berlin;Alemanha
+ANATR;Ana Trujillo Emparedados y helados;México D.F.;México
+ANTON;Antonio Moreno Taquería;México D.F.;México
+AROUT;Around the Horn;London;Reino Unido
+BERGS;Berglunds snabbköp;Luleå;Suécia
+BLAUS;Blauer See Delikatessen;Mannheim;Alemanha
+BLONP;Blondel père et fils;Strasbourg;França
+BOLID;Bólido Comidas preparadas;Madrid;Espanha
+BONAP;Bom de Papo;Marseille;teste
+BOTTM;Bottom-Dollar Markets;Tsawassen;Canadá
+BSBEV;B's Beverages;London;Reino Unido
+CACTU;Cactus Comidas para llevar;Buenos Aires;Argentina
+CENTC;Centro comercial Moctezuma;México D.F.;México
+CHOPS;Chop-suey Chinese;Bern;Suíça
+COMMI;Comércio Mineiro;São Paulo;Brasil
+CONSH;Consolidated Holdings;London;Reino Unido
+DRACD;Drachenblut Delikatessen;Aachen;Alemanha
+DUMON;Du monde entier;Nantes;França
+EASTC;Eastern Connection;London;Reino Unido
+ERNSH;Ernst Handel;Graz;Áustria
+FAMIA;Familia Arquibaldo;São Paulo;Brasil
+FOLIG;Folies gourmandes;Lille;França
+FOLKO;Folk och fä HB;Bräcke;Suécia
+FRANK;Frankenversand;München;Alemanha
+FRANR;France restauration;Nantes;França
+FRANS;Franchi S.p.A.;Torino;Itália
+FURIB;Furia Bacalhau e Frutos do Mar;Lisboa;Portugal
+GALED;Galería del gastrónomo;Barcelona;Espanha
+GODOS;Godos Cocina Típica;Sevilla;Espanha
+GOURL;Gourmet Lanchonetes;Campinas;Brasil
+GREAL;Great Lakes Food Market;Eugene;EUA
+GROSR;GROSELLA-Restaurante;Caracas;Venezuela
+HANAR;Hanari Carnes;Rio de Janeiro;Brasil
+HILAA;HILARIÓN-Abastos;San Cristóbal;Venezuela
+HUNGC;Hungry Coyote Import Store;Elgin;EUA
+HUNGO;Hungry Owl All-Night Grocers;Cork;Irlanda
+ISLAT;Island Trading;Cowes;Reino Unido
+KOENE;Königlich Essen;Brandenburg;Alemanha
+LACOR;La corne d'abondance;Versailles;França
+LAMAI;La maison d'Asie;Toulouse;França
+LAUGB;Laughing Bacchus Wine Cellars;Vancouver;Canadá
+LAZYK;Lazy K Kountry Store;Walla Walla;EUA
+LEHMS;Lehmanns Marktstand;Frankfurt a.M. ;Alemanha
+LETSS;Let's Stop N Shop;San Francisco;EUA
+LILAS;LILA-Supermercado;Barquisimeto;Venezuela
+LINOD;LINO-Delicateses;I. de Margarita;Venezuela
+LONEP;Lonesome Pine Restaurant;Portland;EUA
+MAGAA;Magazzini Alimentari Riuniti;Bergamo;Itália
+MAISD;Maison Dewey;Bruxelles;Bélgica
+MEREP;Mère Paillarde;Montréal;Canadá
+MORGK;Morgenstern Gesundkost;Leipzig;Alemanha
+NORTS;North/South;London;Reino Unido
+OCEAN;Océano Atlántico Ltda.;Buenos Aires;Argentina
+OLDWO;Old World Delicatessen;Anchorage;EUA
+OTTIK;Ottilies Käseladen;Köln;Alemanha
+PERIC;Pericles Comidas clásicas;México D.F.;México
+PICCO;Piccolo und mehr;Salzburg;Áustria
+PRINI;Princesa Isabel Vinhos;Lisboa;Portugal
+QUEDE;Que Delícia;Rio de Janeiro;Brasil
+QUEEN;Queen Cozinha;São Paulo;Brasil
+QUICK;QUICK-Stop;Cunewalde;Alemanha
+RANCH;Rancho grande;Buenos Aires;Argentina
+RATTC;Rattlesnake Canyon Grocery;Albuquerque;EUA
+REGGC;Reggiani Caseifici;Reggio Emilia;Itália
+RICAR;Ricardo Adocicados;Rio de Janeiro;Brasil
+RICSU;Richter Supermarkt;Genève;Suíça
+ROMEY;Romero y tomillo;Madrid;Espanha
+SANTG;Santé Gourmet;Stavern;Noruega
+SAVEA;Save-a-lot Markets;Boise;EUA
+SEVES;Seven Seas Imports;London;Reino Unido
+SIMOB;Simons bistro;København;Dinamarca
+SPECD;Spécialités du monde;Paris;França
+SPLIR;Split Rail Beer & Ale;Lander;EUA
+SUPRD;Suprêmes délices;Charleroi;Bélgica
+THEBI;The Big Cheese;Portland;EUA
+THECR;The Cracker Box;Butte;EUA
+TOMSP;Toms Spezialitäten;Münster;Alemanha
+TORTU;Tortuga Restaurante;México D.F.;México
+TRADH;Tradição Hipermercados;São Paulo;Brasil
+TRAIH;Trail's Head Gourmet Provisioners;Kirkland;EUA
+VAFFE;Vaffeljernet;Århus;Dinamarca
+VICTE;Victuailles en stock;Lyon;França
+VINET;Vins et alcools Chevalier;Reims;França
+WANDK;Die Wandernde Kuh;Stuttgart;Alemanha
+WARTH;Wartian Herkku;Oulu;Finlândia
+WELLI;Wellington Importadora;Resende;Brasil
+WHITC;White Clover Markets;Seattle;EUA
+WILMK;Wilman Kala;Helsinki;Finlândia
+WOLZA;Wolski  Zajazd;Warszawa;Polônia

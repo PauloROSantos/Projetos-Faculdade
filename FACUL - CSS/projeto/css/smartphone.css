@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: "Open Sans";
+}
+
+header, #logo-css3, #banner-full,.descricao,#secoes,#para-voce,footer{
+	border:solid 1px #777;
+	position:relative;
+	float:left;
+}
+
+header, #banner-full{
+	width: 99%;
+}
+
+header{
+	margin:0;
+	height: 85px;
+}
+
+#logo-css3{
+	width: 150px;
+	height: 50px;
+	margin: 15px;
+
+}
+
+#button-menu-nav{
+	width: 40px;
+	height: 40px;
+	margin:20px 0 0 20%;
+
+}
+
+#menu-nav ul{
+	display: none;
+}
+
+#button-lupa{
+	width: 40px;
+	height: 40px;
+	top:20px;
+	right: 20px;
+	position: relative;
+	float: right;
+}
+
+#banner-full{
+	margin-top: 5px;
+	height: 250px;
+}
+
+.descricao{
+	height: 150px;
+}
+
+.descricao,#secoes,#para-voce,footer{
+	width: 90%;
+	margin-top: 5px;
+	padding: 4.5%;
+}
+
+#secoes,#para-voce,footer{
+	min-height: 200px;
+}
+
+#para-voce img,#para-voce p{
+	margin:10px 10px;
+}
+footer{
+	min-height: 50px;
+}
+footer li{
+	padding:20px;
+	display: inline;
+}
+
+.para-voce-item{
+	width: 280px;
+	height: 400px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+#logo-css3{
+	background-image:url('../images/css3-logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#logo-css3{
+	border:dashed 3px #000;
+	position: relative;
+	float:left;
+}
+input[type='search']{
+	background-color: #eee;
+	border:none;
+	border-radius: 15px;
+
+}
+#button-lupa{
+	border: none;
+}
+.descricao{
+	background-color: #e0e0e0;
+	box-shadow: 10px 10px 10px #888;
+
+}
+#secoes{
+	border: solid 1px #e0e0e0;
+	border-radius: 10px;
+}
+#para-voce{
+	border-radius: 10px;
+}

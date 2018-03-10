@@ -1,0 +1,21 @@
+package trabalho_mercado;
+
+import java.io.IOException;
+
+
+public class Principal {
+	public static void main(String args[]) throws IOException{
+		
+		
+		Simulador _8Horas = new Simulador(0.3);
+		_8Horas.gerarRelatorio();
+		
+		Simulador _10Horas = new Simulador(0.4);
+		_10Horas.gerarRelatorio();
+
+		
+		
+	
+		
+	}
+}

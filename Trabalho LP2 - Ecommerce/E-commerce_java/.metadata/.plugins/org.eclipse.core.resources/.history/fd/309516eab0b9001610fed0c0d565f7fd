@@ -1,0 +1,46 @@
+package ecommerce;
+
+import java.util.ArrayList;
+
+
+public class Carrinho {
+	private ArrayList<Produto> produtos;
+	
+	
+	public Carrinho(){
+		produtos = new ArrayList<Produto>();
+	}
+
+
+	public boolean removerDoCarrinho(Produto produto) {
+		if(produtos.contains(produto)){
+			return produtos.remove(produto);
+		}else{
+			return false;
+		}
+		
+	}
+
+
+	public boolean addNoCarrinho(Produto produto) {
+		if ( produto.getQtdEstoque() > 0){
+			produto.setQtdEstoque(produto.getQtdEstoque()-1);
+			return produtos.add(produto);
+		}else{
+			return false;
+		}
+		
+		
+	}
+
+
+	public void mostrarCarrinho() {
+		for(Produto produtoDaVez : produtos){
+			System.out.println(produtoDaVez);
+			System.out.println();
+		}
+		
+	}
+	
+
+}

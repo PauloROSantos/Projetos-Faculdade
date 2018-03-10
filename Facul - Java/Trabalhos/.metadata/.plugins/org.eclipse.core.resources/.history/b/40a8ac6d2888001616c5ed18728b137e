@@ -1,0 +1,28 @@
+package revisao2;
+
+public class Ex1 {
+	String pilha[];
+	
+	private String nome;
+	
+	public Ex1(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getNome(){
+		return nome;
+	}
+	public void setNome(String nome){
+		this.nome = nome;
+	}
+	public static String removerPonto(String nome){
+		for (int i = 0; i < nome.length() ; i++)
+			if ( nome.charAt(i) == '.') {
+				System.out.println(nome.charAt(i));
+				nome.substring(0, 2);
+				}
+		return nome;
+	}
+	
+
+}

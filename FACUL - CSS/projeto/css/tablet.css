@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: "Open Sans";
+}
+
+header, #logo-css3,#banner-full,.descricao,#secoes,#para-voce,footer{
+	border:solid 1px #777;
+	position: relative;
+	float: left;
+}
+
+header,#banner-full{
+	width: 99%;
+}
+header{
+	margin: 0;
+	height: 185px;
+}
+
+#logo-css3{
+	width: 250px;
+	height: 85px;
+	margin: 15px;
+}
+#button-menu-nav{
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	margin-left:20%;
+}
+#menu-nav{
+	float:left;
+	width: 90%;
+}
+#menu-nav li{
+	clear:both;
+	padding-left: 20px;
+	display: inline;
+}
+input[type='search']{
+	width: 300px;
+	height: 40px;
+	margin: 15px;
+	float: right;
+}
+#button-lupa{
+	width: 39px;
+	height: 39px;
+	top: 16px;
+	right: 16px;
+	position:absolute;
+	float: right;
+	background: none;
+	z-index: 1;
+}
+#button-lupa img{
+	width: 20px;
+	height: 20px;
+}
+#banner-full{
+	margin:5px 0 0 0;
+	height: 300px;
+}
+.descricao{
+	width: 180px;
+	height: 150px;
+	padding:25px;
+	position: absolute;
+	float: left;
+	top: 240px;
+	left: 40px;
+	z-index: 1;
+	font-size: 0.8em;
+}
+#secoes,#para-voce,footer{
+	width: 90%;
+	margin: 5px 0 0 0;
+	padding: 4.5%;
+}
+
+#secoes{
+	min-height: 50px;
+}
+#secoes li{
+	display: inline;
+	padding-left: 40px;
+}
+h2{
+	margin: 0;
+	padding-left: 0;
+}
+#para-voce,footer{
+	min-height: 200px;
+}
+#para-voce img,#para-voce p{
+	margin:10px 10px;
+	float:left;
+}
+footer{
+	min-height: 50px;
+}
+footer li{
+	padding: 20px;
+	display: inline;
+}
+.para-voce-item{
+	width: 280px;
+	height: 400px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+#logo-css3{
+	background-image:url('../images/css3-logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#logo-css3{
+	border:dashed 3px #000;
+	position: relative;
+	float:left;
+}
+input[type='search']{
+	background-color: #eee;
+	border:none;
+	border-radius: 15px;
+
+}
+#button-lupa{
+	border: none;
+}
+.descricao{
+	background-color: #e0e0e0;
+	box-shadow: 10px 10px 10px #888;
+
+}
+#secoes{
+	border: solid 1px #e0e0e0;
+	border-radius: 10px;
+}
+#para-voce{
+	border-radius: 10px;
+}

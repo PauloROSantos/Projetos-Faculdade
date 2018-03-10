@@ -1,0 +1,21 @@
+package ecommerce;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		Produto cadeira = new Produto("cadeira","serve pra sentar",300.00,15, new Categoria("moveis","utilidades para casa"));
+		Produto mesa = new Produto("mesa","serve pra comer",300.00,15, new Categoria("moveis","utilidades para casa"));
+		
+		Usuario joao = new Usuario("Joao","9999-9999","casa do caralho","joao@joao","12345joao");
+		
+		System.out.println(joao.addNoCarrinho(cadeira));
+		System.out.println(joao.removerDoCarrinho(cadeira));
+		joao.mostrarCarrinho();
+		System.out.println("ticotico");
+		System.out.println();
+		System.out.println(joao.addNoCarrinho(cadeira));
+		System.out.println(joao.addNoCarrinho(mesa));
+		System.out.println();
+		joao.mostrarCarrinho();
+	}
+}

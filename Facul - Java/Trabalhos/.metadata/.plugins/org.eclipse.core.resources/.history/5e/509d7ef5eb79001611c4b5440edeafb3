@@ -1,0 +1,36 @@
+package condo;
+
+public class Consultor {
+	public static void main(String args[]){
+		
+		Morador morador1 = new Morador("Joao","teste","teste2",5000.0,Morador.data("10/10/1990"));
+		Morador morador2 = new Morador("Joao","teste","teste2",0000.0,Morador.data("10/10/1990"));
+		System.out.println(morador1.getDataNasc());
+		System.out.println(morador1.getRenda());
+		
+		Apartamento apartamento1 = new Apartamento(1,1,500);
+		Apartamento apartamento2 = new Apartamento(1,2,500);
+		
+		Predio predio1 = new Predio(1,10,"belga");
+		
+		apartamento1.addMorador(morador1);
+		apartamento1.addMorador(morador2);
+		
+		predio1.addApartamento(apartamento1);
+		predio1.addApartamento(apartamento2);
+		
+		System.out.println(apartamento1.rendaMedia());
+		System.out.println(apartamento2.isVazio());
+		
+		System.out.println(apartamento1.listaMoradores());
+		System.out.println();
+		System.out.println(predio1.getAndares());
+		System.out.println(predio1.getNumero());
+		System.out.println(predio1.nApartamentos());
+		System.out.println(predio1.nApartamentosVazios());
+		System.out.println(predio1.rendaMedia());
+		System.out.println(predio1.listaApartamentos());
+		
+	}
+
+}

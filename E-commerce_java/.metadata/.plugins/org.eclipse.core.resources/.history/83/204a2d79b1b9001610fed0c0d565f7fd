@@ -1,0 +1,25 @@
+package pagamentos;
+
+import ecommerce.Venda;
+
+public abstract class FormaPagamento {
+	private int total;
+
+	public int getVenda() {
+		return total;
+	}
+
+	public void setVenda(total venda) {
+		this.total = venda;
+	}
+	
+	public double valorPago(){
+		return total * getDescontoPagamento();
+	}
+	
+	public abstract double getDescontoPagamento();
+	
+	
+	
+
+}

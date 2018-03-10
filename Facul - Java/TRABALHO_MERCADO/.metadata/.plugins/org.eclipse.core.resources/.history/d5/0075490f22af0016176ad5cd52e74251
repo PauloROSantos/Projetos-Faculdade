@@ -1,0 +1,107 @@
+package trabalho_mercado;
+
+import java.util.Random;
+
+public class Caixa {
+	private double custo = 300.00;
+	private boolean status;
+	private Double valorCaixa = 0.0;
+	private long tempoDeAtendimento;
+	private int totalDeItensVendido;
+	private int totalDeClientesAtendidos;
+	private int maiorTempoDeEspera = 0;
+	Random gerador = new Random();
+	
+	
+	
+	public int getMaiorTempoDeEspera() {
+		return maiorTempoDeEspera;
+	}
+
+	public void setMaiorTempoDeEspera(int maiorTempoDeEspera) {
+		this.maiorTempoDeEspera = maiorTempoDeEspera;
+	}
+
+	public int getTotalDeClientesAtendidos() {
+		return totalDeClientesAtendidos;
+	}
+
+	public void setTotalDeClientesAtendidos(int totalDeClientesAtendidos) {
+		this.totalDeClientesAtendidos = totalDeClientesAtendidos;
+	}
+
+	public int getTotalDeItensVendido() {
+		return totalDeItensVendido;
+	}
+
+	public void setTotalDeItensVendido(int totalDeItensVendido) {
+		this.totalDeItensVendido = totalDeItensVendido;
+	}
+
+	public double getCusto() {
+		return custo;
+	}
+
+	public void setCusto(double custo) {
+		this.custo = custo;
+	}
+
+	public boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+	public Double getValorCaixa() {
+		return valorCaixa;
+	}
+
+	public void setValorCaixa(Double valorCaixa) {
+		this.valorCaixa = valorCaixa;
+	}
+
+	public long getTempoDeAtendimento() {
+		return tempoDeAtendimento;
+	}
+
+	public void setTempoDeAtendimento(long tempoDeAtendimento) {
+		this.tempoDeAtendimento = tempoDeAtendimento;
+	}
+	
+	public Caixa(){
+		status = true;
+	}
+	
+	public void atendimento(Cliente cliente){
+		status = false;
+		int qtde = cliente.getQuantidadeDeProduto();
+		totalDeItensVendido += qtde;
+		totalDeClientesAtendidos++;
+		setTempoDeAtendimento(qtde);
+		
+		
+		for (int i = 0; i < qtde; i++){
+			valorCaixa += gerador.nextDouble() * 45 + 5.00;
+		}
+		
+		if(cliente.getTempoDeEspera() > maiorTempoDeEspera){
+			maiorTempoDeEspera = cliente.getTempoDeEspera();
+		}
+		
+		
+	}
+
+	
+	public void diminuiTempoAtendimento() {
+		if (tempoDeAtendimento > 0)
+			tempoDeAtendimento--;
+	}
+
+	public void livre() {
+		status = true;
+	}
+	
+	
+}

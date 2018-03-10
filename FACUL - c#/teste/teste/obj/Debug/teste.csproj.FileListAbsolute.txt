@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\teste\teste\bin\Debug\teste.exe.config
+C:\Users\pR\Documents\FACUL - c#\teste\teste\bin\Debug\teste.exe
+C:\Users\pR\Documents\FACUL - c#\teste\teste\bin\Debug\teste.pdb
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.Form1.resources
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.exe
+C:\Users\pR\Documents\FACUL - c#\teste\teste\obj\Debug\teste.pdb

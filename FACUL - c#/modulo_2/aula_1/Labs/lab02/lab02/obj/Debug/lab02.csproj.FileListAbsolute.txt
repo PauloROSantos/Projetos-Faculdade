@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\bin\Debug\lab02.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\bin\Debug\lab02.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\bin\Debug\lab02.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.lab02Form.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_1\Labs\lab02\lab02\obj\Debug\lab02.csprojResolveAssemblyReference.cache

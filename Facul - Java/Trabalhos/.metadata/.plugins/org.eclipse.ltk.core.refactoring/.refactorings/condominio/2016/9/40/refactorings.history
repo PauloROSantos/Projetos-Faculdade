@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;dataNasc&apos; in &apos;condo.Morador&apos; to &apos;dataNascimento&apos;&#x0D;&#x0A;- Original project: &apos;condominio&apos;&#x0D;&#x0A;- Original element: &apos;condo.Morador.dataNasc&apos;&#x0D;&#x0A;- Renamed element: &apos;condo.Morador.dataNascimento&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;dataNasc&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;condo{Morador.java[Morador^dataNasc" name="dataNascimento" references="true" setter="false" stamp="1475193326739" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package ex1;
+
+public class Fila {
+
+	public void inserir(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void revomer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

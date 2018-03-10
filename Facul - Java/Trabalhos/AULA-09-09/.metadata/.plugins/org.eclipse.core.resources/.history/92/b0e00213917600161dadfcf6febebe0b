@@ -1,0 +1,23 @@
+package ex2;
+
+import java.util.ArrayList;
+
+public class GerenciadorAlunos {
+	Aluno za = new Aluno("Za", 10);
+	Aluno ze = new Aluno("Ze", 6);
+	Aluno zi = new Aluno("Zi", 8);
+
+	ArrayList<Aluno> listaAlunos = new ArrayList<Aluno>();
+	
+	listaAlunos.add(za);
+	listaAlunos.add(ze);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

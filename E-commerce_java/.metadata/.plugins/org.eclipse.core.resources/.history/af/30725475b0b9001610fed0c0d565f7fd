@@ -1,0 +1,40 @@
+package ecommerce;
+
+import java.util.ArrayList;
+
+
+public class Carrinho {
+	private ArrayList<Produto> produtos;
+	
+	
+	public Carrinho(){
+		produtos = new ArrayList<Produto>();
+	}
+
+
+	public boolean removerDoCarrinho(Produto produto) {
+		if(produtos.contains(produto)){
+			return produtos.remove(produto);
+		}else{
+			return false;
+		}
+		
+	}
+
+
+	public boolean addNoCarrinho(Produto produto) {
+		return produtos.add(produto);
+		
+	}
+
+
+	public void mostrarCarrinho() {
+		for(Produto produtoDaVez : produtos){
+			System.out.println(produtoDaVez);
+			System.out.println();
+		}
+		
+	}
+	
+
+}

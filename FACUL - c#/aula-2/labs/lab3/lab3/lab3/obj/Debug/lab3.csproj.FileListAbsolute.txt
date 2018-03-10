@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\bin\Debug\lab3.exe.config
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\bin\Debug\lab3.exe
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\bin\Debug\lab3.pdb
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.lab03Form.resources
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.exe
+C:\Users\pR\Documents\FACUL - c#\aula-2\labs\lab3\lab3\lab3\obj\Debug\lab3.pdb

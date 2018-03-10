@@ -1,0 +1,99 @@
+package ecommerce;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+import pagamentos.FormaPagamento;
+
+public class Venda {
+	private Carrinho carrinho;
+	private Usuario usuario;
+	private double total;
+	private FormaPagamento pagamento;
+	private Scanner sc;
+	
+	public FormaPagamento getFormaPagamento() {
+		return pagamento;
+	}
+
+	public void setFormaPagamento(FormaPagamento formaPagamento) {
+		this.pagamento = formaPagamento;
+	}
+
+	public Venda(Usuario usuario){
+		this.usuario = usuario;
+		carrinho = usuario.getCarrinho();
+	}
+
+	public Carrinho getCarrinho() {
+		return carrinho;
+	}
+
+	public void setCarrinho(Carrinho carrinho) {
+		this.carrinho = carrinho;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+	
+	public void calcularTotal(){
+		HashMap<Integer, Produto> produtos = carrinho.getProdutos();
+		for(Produto produtoDaVez : produtos.values()){
+			total += produtoDaVez.getPreco();
+			
+		}
+	}
+
+	public void finalizarVenda() {
+		sc = new Scanner(System.in);
+		calcularTotal();
+		double valor = total;
+		
+		boolean aux = true;
+		
+		System.out.println("-----------------------------------");
+		while(aux){
+			System.out.println("Total da compra: R$"+total);
+			System.out.println("Escolha sua forma de pagamento: ");
+			System.out.println("1 - Paypal - 5% de desconto");
+			System.out.println("2 - Credito");
+			System.out.println("3 - Boleto - 10% de desconto");
+			System.out.println();
+		
+			String opcao = sc.nextLine();
+			
+			if(opcao.contains("1")){
+				valor *= 0.95;
+				aux = false;
+				
+			}else if(opcao.contains("2")){
+				aux = false;
+				
+			}else if(opcao.contains("3")){
+				valor *= 0.90;
+				aux = false;
+				
+			}else{
+				System.out.println("Digite uma opção valida.");
+			}
+		
+		}
+		return valor;
+	}
+	
+
+}

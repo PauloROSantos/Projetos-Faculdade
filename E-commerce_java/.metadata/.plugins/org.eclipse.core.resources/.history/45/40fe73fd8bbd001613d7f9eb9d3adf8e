@@ -1,0 +1,64 @@
+package ecommerce;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
+public class Carrinho {
+	HashMap<Integer, Produto> produtos;
+	Integer totalitens = 0;
+	
+	
+	public HashMap<Integer, Produto> getProdutos() {
+		return produtos;
+	}
+
+
+	public void setProdutos(HashMap<Integer, Produto> produtos) {
+		this.produtos = produtos;
+	}
+
+
+	public Carrinho(){
+		produtos = new HashMap<Integer, Produto>();
+	}
+
+
+	public boolean removerDoCarrinho(Integer chave, Produto produto) {
+		if(produtos.containsValue(produto)){
+			produtos.containsValue(produto);
+			return produtos.remove(chave, produto);
+		}else{
+			return false;
+		}
+		
+	}
+
+
+	public void addNoCarrinho(Integer chave,Produto produto) {
+		if ( produto.getQtdEstoque() > 0){
+			produto.setQtdEstoque(produto.getQtdEstoque()-1);
+			produtos.put(chave, produto);
+		}else{
+			
+		}
+		
+		
+	}
+
+
+	public void mostrarCarrinho() {
+		int i = 0;
+		for(Produto produtoDaVez : produtos.values()){
+			System.out.println("Opção "+i);
+			System.out.println(produtoDaVez);
+			System.out.println();
+			i++;
+		}
+		System.out.println("-----------------------------------");
+	
+		
+	}
+	
+
+}

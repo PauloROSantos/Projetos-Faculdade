@@ -1,0 +1,43 @@
+package revisao;
+
+import java.util.ArrayList;
+
+public class Ex2 {
+	
+	
+	public static void main(String args[]){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(list.size(),2);
+		
+		int n = 1;
+		int x = 0;
+		int i;
+		
+		while (n < 10){
+			if ( n% 2 != 0){
+				System.out.println(2);
+				for ( i = 3 ; i * i <= n; i +=2){
+					
+					if (n % i == 0)
+						break;
+					
+				}
+				if ( i < n){
+					x++;
+				}
+			}
+			n++;
+		}
+		System.out.println(x);
+	}
+}

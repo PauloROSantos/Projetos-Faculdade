@@ -1,0 +1,13 @@
+package ex1;
+
+public class Principal {
+	public void main(String arg[]){
+			Fila fila = new Fila();
+			
+			fila.inserir(10);
+			fila.inserir(20);
+			fila.inserir(30);
+			
+			fila.revomer();
+	}
+}

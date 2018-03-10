@@ -1,0 +1,15 @@
+package revisao;
+
+import java.util.ArrayList;
+
+public class Ex2 extends Thread {
+	static int[] vetor = {1,2,3,4,5};
+	
+	public static void main (String args[]){
+		int i = 133;
+		Integer j = 133;
+		System.out.println(i == j);
+		System.out.println(i.equals(j));
+	
+}
+

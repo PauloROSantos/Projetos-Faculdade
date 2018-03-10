@@ -1,0 +1,64 @@
+package e_commerce;
+
+public class Venda {
+	private Usuario comprador;
+	private Produto produto;
+	private int quantidade;
+	private String formaDePagamento;
+	private String endereço_de_entrega;
+	private String cupomDeDesconto;
+	
+	public Usuario getComprador() {
+		return comprador;
+	}
+	public void setComprador(Usuario comprador) {
+		this.comprador = comprador;
+	}
+	public Produto getProduto() {
+		return produto;
+	}
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	public String getFormaDePagamento() {
+		return formaDePagamento;
+	}
+	public void setFormaDePagamento(String formaDePagamento) {
+		this.formaDePagamento = formaDePagamento;
+	}
+	public String getEndereço_de_entrega() {
+		return endereço_de_entrega;
+	}
+	public void setEndereço_de_entrega(String endereço_de_entrega) {
+		this.endereço_de_entrega = endereço_de_entrega;
+	}
+	
+	public Venda(Usuario comprador, Produto produto, int quantidade,
+			String formaDePagamento, String endereço_de_entrega, String cupomDeDesconto) {
+		super();
+		this.comprador = comprador;
+		this.produto = produto;
+		this.quantidade = quantidade;
+		this.formaDePagamento = formaDePagamento;
+		this.endereço_de_entrega = endereço_de_entrega;
+		this.cupomDeDesconto = cupomDeDesconto;
+	}
+	
+	public double valorTotal(Produto produto, int quantidade, String formaDePagamento,
+								String endereço_de_entrega, String cupomDeDesconto){
+		
+		
+		return 0.0;
+	}
+	
+
+	
+	
+
+}

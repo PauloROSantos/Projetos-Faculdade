@@ -1,0 +1,10 @@
+package ex3;
+
+public class GerenciadorConta {
+	public static void main(String args[]){
+		Ligacao ligacao = new Ligacao("190",40);
+		ContaTelefonica ct = new ContaTelefonica("99501-2152","agosto");
+		ct.addLigacao(ligacao);
+	}
+
+}

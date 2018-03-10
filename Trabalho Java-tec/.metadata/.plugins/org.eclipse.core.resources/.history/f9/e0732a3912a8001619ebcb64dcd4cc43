@@ -1,0 +1,83 @@
+package e_commerce;
+
+public class Venda {
+	private Usuario comprador;
+	private Produto produto;
+	private int quantidade;
+	private String formaDePagamento;
+	private String endereço_de_entrega;
+	private String cupomDeDesconto;
+	private String promoção = "0004562345";
+	
+	public Usuario getComprador() {
+		return comprador;
+	}
+	public void setComprador(Usuario comprador) {
+		this.comprador = comprador;
+	}
+	public Produto getProduto() {
+		return produto;
+	}
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	public String getFormaDePagamento() {
+		return formaDePagamento;
+	}
+	public void setFormaDePagamento(String formaDePagamento) {
+		this.formaDePagamento = formaDePagamento;
+	}
+	public String getEndereço_de_entrega() {
+		return endereço_de_entrega;
+	}
+	public void setEndereço_de_entrega(String endereço_de_entrega) {
+		this.endereço_de_entrega = endereço_de_entrega;
+	}
+	
+	public Venda(Usuario comprador, Produto produto, int quantidade,
+			String formaDePagamento, String endereço_de_entrega, String cupomDeDesconto) {
+		super();
+		this.comprador = comprador;
+		this.produto = produto;
+		this.quantidade = quantidade;
+		this.formaDePagamento = formaDePagamento;
+		this.endereço_de_entrega = endereço_de_entrega;
+		this.cupomDeDesconto = cupomDeDesconto;
+	}
+	
+	public double valorTotal(Produto produto, int quantidade, String formaDePagamento,
+								String endereço_de_entrega, String cupomDeDesconto){
+		double valor = produto.getValor();
+		boolean bonus = (formaDePagamento == "boleto" ? true : false);
+		
+		boolean desconto = (cupomDeDesconto == promoção ? true : false);
+		
+		double total = valor * quantidade;
+		
+		if (bonus)
+			total = total / 100 * 85;
+	
+		if (desconto)
+			total = total /100 * 90;
+		
+		return total;
+	}
+	
+	public String gerarRastreamento(){
+		
+		
+		return "teste";
+	}
+	
+	
+
+	
+	
+
+}

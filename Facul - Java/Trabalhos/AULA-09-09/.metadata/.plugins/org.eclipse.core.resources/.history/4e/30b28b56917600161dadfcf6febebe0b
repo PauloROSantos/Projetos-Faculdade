@@ -1,0 +1,17 @@
+package ex3;
+
+public class ContaTelefonica {
+	private String telefone;
+	private String periodo;
+	private ArrayList<Ligacao> ligacao;
+	
+	public ContaTelefonica(String periodo, String telefone){
+		this.telefone = telefone;
+		this.periodo = periodo;
+	}
+	
+	public boolean addLigacao(Ligacao ligacao){
+		return ;
+		
+	}
+}

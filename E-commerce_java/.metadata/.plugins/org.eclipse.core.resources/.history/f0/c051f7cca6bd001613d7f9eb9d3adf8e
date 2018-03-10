@@ -1,0 +1,20 @@
+package ecommerce;
+/*
+	Integrantes do Grupo:
+		Paulo Roberto Oliveira Santos RA: 1600356
+		Bruno Ferreira Martins RA: 1600244
+		Gustavo do Carmo Kamitani RA: 1600121
+		Pedro Zomer da Fonseeca RA: 1600050
+		Ricardo Rosseti Ghirelli RA: 1600432
+	
+
+
+*/
+public class Principal {
+	public static void main(String[] args) {
+		
+		Loja lojaGamer = new Loja();
+		
+		
+	}
+}

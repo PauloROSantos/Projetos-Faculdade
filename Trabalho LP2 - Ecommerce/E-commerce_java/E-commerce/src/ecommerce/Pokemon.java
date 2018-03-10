@@ -1,0 +1,35 @@
+package ecommerce;
+
+public abstract class Pokemon {
+	private String nome;
+	private String descricao;
+	private Categoria categoria;
+	
+	public Pokemon(String nome, String descricao, Categoria categoria){
+		this.nome = nome;
+		this.descricao = descricao;
+		this.categoria = categoria;
+		
+	}
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public String getCategoria() {
+		return categoria.getNome();
+	}
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
+}

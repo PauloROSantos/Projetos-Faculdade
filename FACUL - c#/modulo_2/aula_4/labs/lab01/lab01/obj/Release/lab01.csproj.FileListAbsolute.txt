@@ -1,0 +1,14 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\bin\Release\lab01.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\bin\Release\lab01.exe.manifest
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\bin\Release\lab01.application
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\bin\Release\lab01.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\bin\Release\lab01.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.lab01Form.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.exe.manifest
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.application
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\lab01\lab01\obj\Release\lab01.pdb

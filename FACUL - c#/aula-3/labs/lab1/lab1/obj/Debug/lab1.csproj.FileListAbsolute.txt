@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\bin\Debug\lab1.exe.config
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\bin\Debug\lab1.exe
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\bin\Debug\lab1.pdb
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.lab01Form.resources
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.exe
+C:\Users\pR\Documents\FACUL - c#\aula-3\labs\lab1\lab1\obj\Debug\lab1.pdb

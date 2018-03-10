@@ -1,0 +1,7 @@
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.exe.config
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.exe
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\PrimeiroProjeto.pdb
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.exe
+C:\Users\pR\Documents\FACUL - c#\aula-1\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\PrimeiroProjeto.pdb

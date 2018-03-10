@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.rebuildForm.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\bin\Debug\Rebuild3.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\bin\Debug\Rebuild3.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\bin\Debug\Rebuild3.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\Rebuild3\Rebuild3\obj\Debug\Rebuild3.pdb

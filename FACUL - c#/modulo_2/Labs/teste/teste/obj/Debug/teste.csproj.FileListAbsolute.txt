@@ -1,0 +1,7 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\bin\Debug\teste.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\bin\Debug\teste.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\bin\Debug\teste.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\obj\Debug\teste.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\obj\Debug\teste.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\obj\Debug\teste.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\Labs\teste\teste\obj\Debug\teste.pdb

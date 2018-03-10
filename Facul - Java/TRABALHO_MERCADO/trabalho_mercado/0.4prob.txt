@@ -1,0 +1,164 @@
+------------------------------------
+TEMPO DE FILA EXCEDIDO!
+Numero de clientes na fila: 6
+Proximo cliente excedeu o limite de 10 minutos na fila.
+
+Numero de caixas abertos: 5
+Total arrecadado R$: 4141.27 
+Total gasto com os caixas R$: 1500
+Lucro total obtido R$: 2641.27 
+8 clientes atendidos.
+Maior tempo de espera de cliente atendido: 8 minutos.
+------------------------------------
+
+------------------------------------
+TEMPO DE FILA EXCEDIDO!
+Numero de clientes na fila: 9
+Proximo cliente excedeu o limite de 10 minutos na fila.
+
+Numero de caixas abertos: 6
+Total arrecadado R$: 7062.15 
+Total gasto com os caixas R$: 1800
+Lucro total obtido R$: 5262.15 
+12 clientes atendidos.
+Maior tempo de espera de cliente atendido: 6 minutos.
+------------------------------------
+
+------------------------------------
+TEMPO DE FILA EXCEDIDO!
+Numero de clientes na fila: 7
+Proximo cliente excedeu o limite de 10 minutos na fila.
+
+Numero de caixas abertos: 7
+Total arrecadado R$: 6045.29 
+Total gasto com os caixas R$: 2100
+Lucro total obtido R$: 3945.29 
+12 clientes atendidos.
+Maior tempo de espera de cliente atendido: 9 minutos.
+------------------------------------
+
+------------------------------------
+TEMPO DE FILA EXCEDIDO!
+Numero de clientes na fila: 7
+Proximo cliente excedeu o limite de 10 minutos na fila.
+
+Numero de caixas abertos: 8
+Total arrecadado R$: 11796.40 
+Total gasto com os caixas R$: 2400
+Lucro total obtido R$: 9396.40 
+16 clientes atendidos.
+Maior tempo de espera de cliente atendido: 10 minutos.
+------------------------------------
+
+------------------------------------
+TEMPO DE FILA EXCEDIDO!
+Numero de clientes na fila: 7
+Proximo cliente excedeu o limite de 10 minutos na fila.
+
+Numero de caixas abertos: 9
+Total arrecadado R$: 7750.68 
+Total gasto com os caixas R$: 2700
+Lucro total obtido R$: 5050.68 
+11 clientes atendidos.
+Maior tempo de espera de cliente atendido: 9 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 10
+Total arrecadado R$: 29050.13 
+Total gasto com os caixas R$: 3000
+Lucro total obtido R$: 26050.13 
+51 clientes atendidos.
+Maior tempo de espera de cliente atendido: 5 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 11
+Total arrecadado R$: 32490.35 
+Total gasto com os caixas R$: 3300
+Lucro total obtido R$: 29190.35 
+58 clientes atendidos.
+Maior tempo de espera de cliente atendido: 7 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 12
+Total arrecadado R$: 34835.57 
+Total gasto com os caixas R$: 3600
+Lucro total obtido R$: 31235.57 
+60 clientes atendidos.
+Maior tempo de espera de cliente atendido: 6 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 13
+Total arrecadado R$: 28512.42 
+Total gasto com os caixas R$: 3900
+Lucro total obtido R$: 24612.42 
+50 clientes atendidos.
+Maior tempo de espera de cliente atendido: 2 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 14
+Total arrecadado R$: 41521.20 
+Total gasto com os caixas R$: 4200
+Lucro total obtido R$: 37321.20 
+62 clientes atendidos.
+Maior tempo de espera de cliente atendido: 8 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 15
+Total arrecadado R$: 37890.25 
+Total gasto com os caixas R$: 4500
+Lucro total obtido R$: 33390.25 
+61 clientes atendidos.
+Maior tempo de espera de cliente atendido: 0 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 16
+Total arrecadado R$: 42987.07 
+Total gasto com os caixas R$: 4800
+Lucro total obtido R$: 38187.07 
+65 clientes atendidos.
+Maior tempo de espera de cliente atendido: 0 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 17
+Total arrecadado R$: 40984.73 
+Total gasto com os caixas R$: 5100
+Lucro total obtido R$: 35884.73 
+61 clientes atendidos.
+Maior tempo de espera de cliente atendido: 2 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 18
+Total arrecadado R$: 40436.41 
+Total gasto com os caixas R$: 5400
+Lucro total obtido R$: 35036.41 
+66 clientes atendidos.
+Maior tempo de espera de cliente atendido: 0 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 19
+Total arrecadado R$: 39427.05 
+Total gasto com os caixas R$: 5700
+Lucro total obtido R$: 33727.05 
+62 clientes atendidos.
+Maior tempo de espera de cliente atendido: 0 minutos.
+------------------------------------
+
+------------------------------------
+Numero de caixas abertos: 20
+Total arrecadado R$: 37683.63 
+Total gasto com os caixas R$: 6000
+Lucro total obtido R$: 31683.63 
+64 clientes atendidos.
+Maior tempo de espera de cliente atendido: 0 minutos.
+------------------------------------
+

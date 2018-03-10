@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\bin\Debug\ExemploWindowsApp.exe.config
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\bin\Debug\ExemploWindowsApp.exe
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\bin\Debug\ExemploWindowsApp.pdb
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.Form1.resources
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.exe
+C:\Users\pR\Documents\FACUL - c#\aula-2\ExemploWindowsApp\ExemploWindowsApp\obj\Debug\ExemploWindowsApp.pdb

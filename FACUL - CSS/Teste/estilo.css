@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+p{
+	text-transform: uppercase;
+}
+
+body{
+	background-color: khaki;
+}
+
+header{
+	color:red;
+	font:26px Georgia;
+}

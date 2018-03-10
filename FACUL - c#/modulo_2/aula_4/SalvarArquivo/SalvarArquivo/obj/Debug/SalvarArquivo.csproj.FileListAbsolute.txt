@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\bin\Debug\SalvarArquivo.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\bin\Debug\SalvarArquivo.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\bin\Debug\SalvarArquivo.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.SalvarArquivoForm.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\SalvarArquivo\SalvarArquivo\obj\Debug\SalvarArquivo.pdb

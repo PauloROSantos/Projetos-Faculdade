@@ -1,0 +1,52 @@
+package condo;
+
+public class Consultor {
+	public static void main(String args[]){
+		
+		//Criando moradores
+		Morador morador1 = new Morador("Joao","teste","teste2",5000.0,Morador.data("10/10/1990"));
+		Morador morador2 = new Morador("Joao","teste","teste2",0000.0,Morador.data("10/10/1990"));
+		
+		//Criando Apartamentos
+		Apartamento apartamento1 = new Apartamento(1,1,500);
+		Apartamento apartamento2 = new Apartamento(1,2,500);
+		
+		//Criando Predios
+		Predio predio1 = new Predio(1,10,"belga");
+		
+		//Criando Condominios
+		Condominio condominio1 = new Condominio("Zeca","SP","HELP",01);
+		
+		//Adicionando morador ao apartamento
+		apartamento1.addMorador(morador1);
+		apartamento1.addMorador(morador2);
+		
+		//adicionando apartamento ao predio
+		predio1.addApartamento(apartamento1);
+		predio1.addApartamento(apartamento2);
+		
+		//adicionando predio ao condominio
+		
+		//Testes
+		
+		System.out.println(morador1.getDataNasc());
+		System.out.println(morador1.getRenda());
+		
+		System.out.println(apartamento1.rendaMedia());
+		System.out.println(apartamento2.isVazio());
+		
+		System.out.println(apartamento1.listaMoradores());
+		System.out.println();
+		System.out.println(predio1.getAndares());
+		System.out.println(predio1.getNumero());
+		System.out.println(predio1.nApartamentos());
+		System.out.println(predio1.nApartamentosVazios());
+		System.out.println(predio1.rendaMedia());
+		System.out.println(predio1.listaApartamentos());
+		System.out.println();
+		System.out.println();
+		
+		
+	}
+
+}

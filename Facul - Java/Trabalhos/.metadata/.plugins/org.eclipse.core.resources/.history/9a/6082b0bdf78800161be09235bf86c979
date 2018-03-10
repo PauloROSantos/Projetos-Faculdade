@@ -1,0 +1,39 @@
+package revisao2;
+
+public class Ex2 {
+	int[][] botoes = {{3,1,3},
+					  {6,5,5}};
+	
+	
+	
+	int[][] camisas = {{100,50},
+					   {50,100},
+					   {50,50}};
+
+	
+	
+	public int totalBotoes(int[][] camisas, int[][] botoes){
+		int total = 0;
+		int aux = 0;
+		for (int i = 0 ; i < camisas.length ; i++){
+			for ( int j = 0; j < camisas[0].length ; j++){
+				total += (camisas[i][j] * botoes[aux][i]);
+				total += (camisas[i][j] * botoes[i+1][i]);
+				
+				
+				
+				
+			}
+		}
+		
+		
+		
+		
+		
+		
+		return 0;
+	}
+	public void main (String args[]){
+		System.out.println(botoes[0][1]);
+	}
+}

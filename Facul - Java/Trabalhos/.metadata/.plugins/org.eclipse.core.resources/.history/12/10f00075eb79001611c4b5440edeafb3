@@ -1,0 +1,74 @@
+package condo;
+
+import java.util.ArrayList;
+
+public class Condominio {
+	private int nome;
+	private String cidade;
+	private String bairro;
+	private int iden;
+	private ArrayList<Predio> predios = new ArrayList<Predio>();
+	
+	public int getNome() {
+		return nome;
+	}
+	public void setNome(int nome) {
+		this.nome = nome;
+	}
+	public String getCidade() {
+		return cidade;
+	}
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+	public String getBairro() {
+		return bairro;
+	}
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
+	}
+	public int getIden() {
+		return iden;
+	}
+	public void setIden(int iden) {
+		this.iden = iden;
+	}
+	public Condominio(int nome, String cidade, String bairro, int iden) {
+		this.nome = nome;
+		this.cidade = cidade;
+		this.bairro = bairro;
+		this.iden = iden;
+	}
+	
+	public double rendaMedia(){
+		double media = 0;
+		for (Predio predioDaVez : predios){
+			media += predioDaVez.rendaMedia();
+		}
+		if ( media != 0){
+			return media/predios.size();
+		}else{
+			return 0.0;
+		}
+		
+	}
+	
+	public boolean addPredio(Predio predio){
+		return true;
+	}
+	
+	public ArrayList<Predio> listaPredios(){
+		
+	}
+	public int nDeApartamentos(){
+		int total = 0;
+		return total;
+	}
+	public int nDeApartamentosVazios(){
+		int total = 0;
+		return total;
+	}
+
+	
+	
+}

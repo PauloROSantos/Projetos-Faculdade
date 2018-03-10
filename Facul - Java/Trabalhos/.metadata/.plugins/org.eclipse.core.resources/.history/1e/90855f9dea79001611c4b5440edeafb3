@@ -1,0 +1,45 @@
+package condo;
+
+public class Condominio {
+	private int nome;
+	private String cidade;
+	private String bairro;
+	private int iden;
+	
+	public int getNome() {
+		return nome;
+	}
+	public void setNome(int nome) {
+		this.nome = nome;
+	}
+	public String getCidade() {
+		return cidade;
+	}
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+	public String getBairro() {
+		return bairro;
+	}
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
+	}
+	public int getIden() {
+		return iden;
+	}
+	public void setIden(int iden) {
+		this.iden = iden;
+	}
+	public Condominio(int nome, String cidade, String bairro, int iden) {
+		super();
+		this.nome = nome;
+		this.cidade = cidade;
+		this.bairro = bairro;
+		this.iden = iden;
+	}
+	
+	
+
+	
+	
+}

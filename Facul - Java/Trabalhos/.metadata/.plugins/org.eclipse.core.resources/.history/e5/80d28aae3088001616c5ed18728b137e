@@ -1,0 +1,55 @@
+package revisao2;
+
+public class Ex1 {
+	static int topo;
+	static String nome = "Paulo Roberto de Oliveira Santos.";
+	static String pilha[] = new String[5];
+
+	
+	public static String pop(){
+		if ( topo > 0){
+			topo--;
+		}
+		return pilha[topo];
+	}
+	public static void push(String nome){
+		pilha[topo] = nome;
+		topo++;
+	}
+	
+	public static String removerPonto(String nome){
+		String novo = "";
+		int aux = 0;
+		for (int i = 0; i < nome.length() ; i++){
+			aux++;
+			if ( nome.charAt(i) == '.') {
+				novo = nome.substring(0,aux-1);
+			}
+				}
+		return novo;
+	}
+	
+	public static void main(String[] args){
+		System.out.println(nome);
+		nome = removerPonto(nome);
+		String nome2[] = nome.split(" ");
+		
+		for ( int i = 0 ; i < nome2.length ; i++){
+			push(nome2[i]);
+		}
+		System.out.println();
+		
+		
+			for ( int i = 0 ; i < pilha.length ; i++){
+				if ( topo > 0){
+					System.out.print(pop()+" ");
+				}else{
+					System.out.print(".");
+			}
+		}
+		
+	}
+	
+
+	}
+

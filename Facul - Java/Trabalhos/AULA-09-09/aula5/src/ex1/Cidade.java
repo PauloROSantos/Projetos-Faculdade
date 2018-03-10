@@ -1,0 +1,31 @@
+package ex1;
+
+public class Cidade {
+	
+	private String nome;
+	private Estado estado;
+	
+	
+	public Cidade(String nomeNovo,Estado estadoNovo){
+		this.nome = nomeNovo;
+		setEstado(estadoNovo);
+		estado.addCidade(this);
+		
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public Estado getEstado() {
+		return estado;
+	}
+	public void setEstado(Estado estado) {
+		this.estado = estado;
+	}
+	
+	
+	
+}

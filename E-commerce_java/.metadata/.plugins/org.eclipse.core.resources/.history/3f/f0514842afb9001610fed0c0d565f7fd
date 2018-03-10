@@ -1,0 +1,52 @@
+package ecommerce;
+
+public class Venda {
+	private Carrinho carrinho;
+	private Usuario usuario;
+	private double total;
+	
+	public Venda(Usuario usuario){
+		this.usuario = usuario;
+		carrinho = usuario.getCarrinho();
+	}
+
+	public Carrinho getCarrinho() {
+		return carrinho;
+	}
+
+	public void setCarrinho(Carrinho carrinho) {
+		this.carrinho = carrinho;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+	public double calcularFrete(){
+		
+		
+		
+		return 0.0;
+	}
+	
+	public double calcularTotal(){
+		
+		
+		
+		return 0.0;
+	}
+	
+
+}

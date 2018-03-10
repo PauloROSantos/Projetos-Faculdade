@@ -1,0 +1,11 @@
+package ex2;
+
+import java.util.ArrayList;
+
+public class Aluno {
+	
+	private ArrayList<String> alunos = new ArrayList<String>();
+	
+	alunos.add("za");
+	
+}

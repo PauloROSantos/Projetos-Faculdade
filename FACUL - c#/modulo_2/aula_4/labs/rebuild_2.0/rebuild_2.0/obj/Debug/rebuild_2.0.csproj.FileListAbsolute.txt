@@ -1,0 +1,10 @@
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\bin\Debug\rebuild_2.0.exe.config
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\bin\Debug\rebuild_2.0.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\bin\Debug\rebuild_2.0.pdb
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2.0.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2._0.rebuildForm.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2._0.Properties.Resources.resources
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2.0.csproj.GenerateResource.Cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2.0.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2.0.exe
+C:\Users\pR\Documents\FACUL - c#\modulo_2\aula_4\labs\rebuild_2.0\rebuild_2.0\obj\Debug\rebuild_2.0.pdb

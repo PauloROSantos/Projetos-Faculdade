@@ -1,0 +1,28 @@
+package ecommerce;
+
+public class Venda {
+	private Carrinho carrinho;
+	private Usuario usuario;
+	private double total;
+	
+	public double calcularFrete(Usuario usuario){
+		
+		
+		
+		return 0.0;
+	}
+	
+	public double calcularTotal(Carrinho carrinho){
+		
+		
+		
+		return 0.0;
+	}
+	
+	public double calcularDesconto(String cupom){
+		
+		
+		
+		return 0.0;
+	}
+}

@@ -1,0 +1,8 @@
+package pagamentos;
+
+public class Credito extends FormaPagamento {
+	public double getDescontoPagamento() {
+		return 0.93;
+	}
+
+}

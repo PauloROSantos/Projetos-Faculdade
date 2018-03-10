@@ -1,0 +1,64 @@
+package ecommerce;
+
+import java.util.ArrayList;
+
+import pagamentos.FormaPagamento;
+
+public class Venda {
+	private Carrinho carrinho;
+	private Usuario usuario;
+	private double total;
+	private FormaPagamento pagamento;
+	
+	public FormaPagamento getFormaPagamento() {
+		return pagamento;
+	}
+
+	public void setFormaPagamento(FormaPagamento formaPagamento) {
+		this.pagamento = formaPagamento;
+	}
+
+	public Venda(Usuario usuario){
+		this.usuario = usuario;
+		carrinho = usuario.getCarrinho();
+	}
+
+	public Carrinho getCarrinho() {
+		return carrinho;
+	}
+
+	public void setCarrinho(Carrinho carrinho) {
+		this.carrinho = carrinho;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+	
+	public void calcularTotal(){
+		ArrayList<Produto> produtos = carrinho.getProdutos();
+		for(Produto produtoDaVez : produtos){
+			total += produtoDaVez.getPreco();
+			
+		}
+	}
+
+	public void finalizarVenda() {
+		
+		
+	}
+	
+
+}

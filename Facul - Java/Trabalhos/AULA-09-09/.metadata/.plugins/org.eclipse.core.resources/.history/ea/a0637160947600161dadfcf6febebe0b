@@ -1,0 +1,34 @@
+package ex3;
+
+public class Ligacao {
+	private String telefoneDestino;
+	private double valorMinuto = 0.09;
+	private int tempoDuracao;
+	
+
+	public Ligacao(String telefoneDestino, int tempoDuracao){
+		this.telefoneDestino = telefoneDestino;
+		this.tempoDuracao = tempoDuracao;
+	}
+	
+	public double getValor(){
+		double total = tempoDuracao * valorMinuto;
+		return total;
+	}
+	
+	public String getTelefoneDestino() {
+		return telefoneDestino;
+	}
+
+	public void setTelefoneDestino(String telefoneDestino) {
+		this.telefoneDestino = telefoneDestino;
+	}
+	public int getTempoDuracao() {
+		return tempoDuracao;
+	}
+
+	public void setTempoDuracao(int tempoDuracao) {
+		this.tempoDuracao = tempoDuracao;
+	}
+
+}

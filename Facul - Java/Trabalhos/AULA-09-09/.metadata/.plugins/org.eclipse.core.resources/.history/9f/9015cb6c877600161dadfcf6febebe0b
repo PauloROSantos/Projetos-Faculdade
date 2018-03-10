@@ -1,0 +1,10 @@
+package ex2;
+
+import java.util.ArrayList;
+
+public class Aluno {
+	private ArrayList<String> alunos = new ArrayList();
+	
+	alunos.add("Za;10");
+	
+}

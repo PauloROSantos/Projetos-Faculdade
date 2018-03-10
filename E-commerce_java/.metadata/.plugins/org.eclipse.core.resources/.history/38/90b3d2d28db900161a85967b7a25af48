@@ -1,0 +1,6 @@
+package pagamentos;
+
+public class Debito {
+	private String nome;
+	private String descrição;
+}

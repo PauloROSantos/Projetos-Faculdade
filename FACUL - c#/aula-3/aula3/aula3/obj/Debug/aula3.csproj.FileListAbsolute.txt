@@ -1,0 +1,7 @@
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\bin\Debug\aula3.exe.config
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\bin\Debug\aula3.exe
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\bin\Debug\aula3.pdb
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\obj\Debug\aula3.csprojResolveAssemblyReference.cache
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\obj\Debug\aula3.csproj.CoreCompileInputs.cache
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\obj\Debug\aula3.exe
+C:\Users\pR\Documents\FACUL - c#\aula-3\aula3\aula3\obj\Debug\aula3.pdb

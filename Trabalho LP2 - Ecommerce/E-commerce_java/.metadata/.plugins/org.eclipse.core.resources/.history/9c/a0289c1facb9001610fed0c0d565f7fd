@@ -1,0 +1,22 @@
+package ecommerce;
+
+import java.util.ArrayList;
+
+public class Carrinho {
+	private ArrayList<Produto> produtos;
+	
+	
+	public Carrinho(){
+		produtos = new ArrayList<Produto>();
+	}
+	
+	public boolean addNoCarrinho(Produto produto){
+		
+		return true;
+	}
+	
+	public boolean removerDoCarrinho(Produto produto){
+		
+		return true;
+	}
+}

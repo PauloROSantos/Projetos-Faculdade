@@ -1,0 +1,36 @@
+package ecommerce;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Carrinho {
+	private ArrayList<Produto> produtos;
+	
+	
+	public Carrinho(){
+		produtos = new ArrayList<Produto>();
+	}
+
+
+	public void removerDoCarrinho(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void addNoCarrinho(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void mostrarCarrinho() {
+		for(Produto produtoDaVez : produtos){
+			System.out.println(produtoDaVez);
+			System.out.println();
+		}
+		
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+package revisao;
+
+import java.util.ArrayList;
+
+public class Ex2 {
+	static int[] vetor = {1,2,3,4,5};
+	
+	public static void main (String args[]){
+		for ( int i = 3 ; i < 20 ; i+= 2)
+			System.out.print((5%3)+" ");
+	}
+	
+	
+}
+

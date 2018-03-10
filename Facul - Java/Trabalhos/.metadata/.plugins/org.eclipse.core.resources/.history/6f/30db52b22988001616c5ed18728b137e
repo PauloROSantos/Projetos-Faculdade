@@ -1,0 +1,20 @@
+package revisao2;
+
+public class Teste {
+	
+	
+	
+	
+	
+	
+	public static void main(String args[]){
+		Ex1 teste = new Ex1("Paulo Roberto Oliveira.");
+		System.out.println(teste.getNome());
+		
+		teste.removerPonto(teste.getNome());
+		
+		System.out.println(teste.getNome());
+	}
+
+
+}
