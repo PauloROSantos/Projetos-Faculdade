@@ -1,0 +1,9 @@
+package trabalho_mercado;
+
+import java.util.Random;
+
+public class Produto {
+	Random gerador = new Random();
+	
+	private double valor = gerador.nextDouble() * 45 + 5.00;
+}

@@ -1,0 +1,14 @@
+package trabalho_mercado;
+
+import java.util.Scanner;
+
+public class Teste {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String nome = sc.next();
+		
+		System.out.println(nome=="Fulano");
+		System.out.println(nome.length());
+	}
+}

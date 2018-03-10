@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;adicionaTempo&apos; in &apos;trabalho_mercado.Simulador.gerarRelatorio()&apos; to &apos;verificaTempo&apos;&#x0D;&#x0A;- Original project: &apos;trabalho_mercado&apos;&#x0D;&#x0A;- Original element: &apos;trabalho_mercado.Simulador.gerarRelatorio().adicionaTempo&apos;&#x0D;&#x0A;- Renamed element: &apos;adicionaTempo&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;adicionaTempo&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;trabalho_mercado{Simulador.java[Simulador~gerarRelatorio@adicionaTempo!2233!2270!2241!2253!QCliente;!0!false" name="verificaTempo" references="true" stamp="1479584641370" version="1.0"/>
+</session>
