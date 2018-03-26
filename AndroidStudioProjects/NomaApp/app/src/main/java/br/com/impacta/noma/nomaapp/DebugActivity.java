@@ -1,16 +1,18 @@
 package br.com.impacta.noma.nomaapp;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 /**
  * Created by pR on 25/03/2018.
  */
 
-public class DebugActivity extends Activity {
+public class DebugActivity extends AppCompatActivity {
+
 
     private String getClassName(){
-        String s = getClass.getName();
+        String s = getClass().getName();
         return s.substring(s.lastIndexOf("."));
     }
 

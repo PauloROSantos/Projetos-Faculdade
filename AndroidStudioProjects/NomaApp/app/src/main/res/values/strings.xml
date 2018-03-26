@@ -8,4 +8,8 @@
     <string name="button_login">Logar!</string>
     <string name="button_telaLogin">Ir para tela de Login </string>
     <string name="bemVindo">login %1$s senha %2$s</string>
+    <string name="action_calendario">Calendario</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_agendar">Agendar</string>
+    <string name="action_config">Config</string>
 </resources>
