@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".logado"></activity>
+        <activity android:name=".logado" />
+        <activity android:name=".agendarServico"></activity>
     </application>
 
 </manifest>

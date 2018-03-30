@@ -12,4 +12,13 @@
     <string name="action_sair">Sair</string>
     <string name="action_agendar">Agendar</string>
     <string name="action_config">Config</string>
+    <string name="agendar_profissional">Profissional :</string>
+    <string name="agendar_servico">Serviço :</string>
+    <string name="agendar_horario">Horario :</string>
+    <string name="agendar_horarioDado"></string>
+    <string name="agendar_servicoDado"></string>
+    <string name="agendar_profissionalDado"></string>
+    <string name="agendarBtn">Agendar</string>
+    <string name="action_procurar">Procurar</string>
+    <string name="action_compartilhar">Compartilhar</string>
 </resources>

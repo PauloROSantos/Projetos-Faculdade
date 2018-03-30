@@ -9,6 +9,8 @@ import android.widget.EditText;
 
 public class MainActivity extends DebugActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +31,6 @@ public class MainActivity extends DebugActivity {
         EditText senhaDado = (EditText) findViewById(R.id.senha_dado);
         String senha = senhaDado.getText().toString();
 
-        it.putExtra("login",login );
-        it.putExtra("senha",senha );
         startActivity(it);
     }
 
