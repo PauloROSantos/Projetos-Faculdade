@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".logado" />
-        <activity android:name=".agendarServico"></activity>
+        <activity android:name=".agendarServico" />
+        <activity android:name=".Servicos"/>
     </application>
 
 </manifest>

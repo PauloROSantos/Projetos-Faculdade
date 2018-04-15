@@ -12,12 +12,9 @@
         android:title="@string/action_agendar"
         app:showAsAction="always" />
 
-    <item android:id="@+id/action_sair"
-        android:title="@string/action_sair"
-        app:showAsAction="never" />
-
-    <item android:id="@+id/action_config"
-        android:title="@string/action_config"
+    <item android:id="@+id/action_servicos"
+        android:icon="@drawable/ic_add_18dp"
+        android:title="@string/action_servicos"
         app:showAsAction="never" />
 
     <item android:id="@+id/action_procurar"
@@ -29,6 +26,14 @@
         android:title="@string/action_compartilhar"
         app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
         app:showAsAction="never"/>
+
+    <item android:id="@+id/action_config"
+        android:title="@string/action_config"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_sair"
+        android:title="@string/action_sair"
+        app:showAsAction="never" />
 
 
 </menu>

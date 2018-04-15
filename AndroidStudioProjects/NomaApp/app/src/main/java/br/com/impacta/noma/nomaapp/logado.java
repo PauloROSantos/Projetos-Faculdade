@@ -37,6 +37,8 @@ public class logado extends DebugActivity {
             String servico = bundle.getString("servico");
             String horario = bundle.getString("horario");
 
+            String teste = "teste";
+
             TextView bemVindo = (TextView) findViewById(R.id.bemVindo);
             bemVindo.setText("Agendamento feito com o "+profissional+" para fazer "+servico+" as "+horario);
         }
@@ -99,8 +101,15 @@ public class logado extends DebugActivity {
             Toast.makeText(logado.this,"Config",Toast.LENGTH_SHORT).show();
         } else if ( id == R.id.action_sair) {
             sair();
+        } else if ( id == R.id.action_servicos) {
+            servicos();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void servicos () {
+        Intent it = new Intent(logado.this,Servicos.class);
+        startActivity(it);
     }
 
     public void agendar () {

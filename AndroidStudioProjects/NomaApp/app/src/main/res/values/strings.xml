@@ -21,4 +21,7 @@
     <string name="agendarBtn">Agendar</string>
     <string name="action_procurar">Procurar</string>
     <string name="action_compartilhar">Compartilhar</string>
+    <string name="title_activity_cadastrar_servico">cadastrarServico</string>
+    <string name="action_servicos">Serviços</string>
+    <string name="action_cadastrar_servico">Cadastrar serviços</string>
 </resources>

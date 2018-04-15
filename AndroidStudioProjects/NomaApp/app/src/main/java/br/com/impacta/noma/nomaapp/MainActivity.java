@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 
 public class MainActivity extends DebugActivity {
 
@@ -24,6 +25,12 @@ public class MainActivity extends DebugActivity {
 
     public void logar(View view){
         Intent it = new Intent(MainActivity.this,logado.class);
+
+        ProgressBar loading = (ProgressBar) findViewById(R.id.progressBar_login);
+        loading.setVisibility(view.VISIBLE);
+
+        Button logar = (Button) findViewById(R.id.button_login);
+        logar.setVisibility(view.INVISIBLE);
 
         EditText loginDado = (EditText) findViewById(R.id.login_dado);
         String login = loginDado.getText().toString();
