@@ -18,7 +18,12 @@
         </activity>
         <activity android:name=".logado" />
         <activity android:name=".agendarServico" />
-        <activity android:name=".Servicos"/>
+        <activity android:name=".Servicos" />
+        <activity android:name=".ConfiguracoesActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

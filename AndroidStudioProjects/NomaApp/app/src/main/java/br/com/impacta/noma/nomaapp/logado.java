@@ -103,8 +103,15 @@ public class logado extends DebugActivity {
             sair();
         } else if ( id == R.id.action_servicos) {
             servicos();
+        } else if ( id == R.id.action_config) {
+            preferencias();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void preferencias() {
+        Intent it = new Intent(logado.this,ConfiguracoesActivity.class);
+        startActivity(it);
     }
 
     public void servicos () {
