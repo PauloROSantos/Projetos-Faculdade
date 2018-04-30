@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -15,7 +17,7 @@ import android.widget.Toast;
  * Created by pR on 15/04/2018.
  */
 
-public class Servicos extends AppCompatActivity {
+public class ServicosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +32,15 @@ public class Servicos extends AppCompatActivity {
 
         ListView lista = (ListView) findViewById(R.id.listaServicos);
 
-        lista.setAdapter(new SimplesAdapter(Servicos.this));
+        ServicosDB servicosDB = new ServicosDB(ServicosActivity.this);
+
+        lista.setAdapter((ListAdapter) servicosDB.findAll());
 
         lista.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView,
                                     View view, int i, long l) {
-                Toast.makeText(Servicos.this,"Clicou: "+ i, Toast.LENGTH_LONG).show();
+                Toast.makeText(ServicosActivity.this,"Clicou: "+ i, Toast.LENGTH_LONG).show();
             }
         });
     }
@@ -50,7 +54,7 @@ public class Servicos extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if(id == android.R.id.home) {
-            Intent it = new Intent(Servicos.this,logado.class);
+            Intent it = new Intent(ServicosActivity.this,logado.class);
             startActivity(it);
             return true;
         } else if ( id == R.id.action_cadastrar_servico) {
@@ -64,4 +68,21 @@ public class Servicos extends AppCompatActivity {
     }
 
 
+    public void CadastrarServico(View view) {
+        EditText nomeServico = (EditText) findViewById(R.id.cadNomeServicoDado);
+        EditText tempoEstimadoServico = (EditText) findViewById(R.id.cadTempoEstimadoServicoDado);
+        EditText tempoAplicacaoServico = (EditText) findViewById(R.id.cadTempoAplicacaoServicoDado);
+        EditText precoServico = (EditText) findViewById(R.id.cadPreçoServicoDado);
+
+        String nome = nomeServico.getText().toString();
+        Integer tempoEstimado = Integer.parseInt(tempoEstimadoServico.getText().toString());
+        Integer tempoAplicacao = Integer.parseInt(tempoAplicacaoServico.getText().toString());
+        Double preco = Double.parseDouble(precoServico.getText().toString());
+
+        Servico servico = new Servico(nome,tempoEstimado,tempoAplicacao,preco);
+
+        ServicosDB dbServicos = new ServicosDB(ServicosActivity.this);
+
+        dbServicos.save(servico);
+    }
 }

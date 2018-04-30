@@ -24,4 +24,14 @@
     <string name="title_activity_cadastrar_servico">cadastrarServico</string>
     <string name="action_servicos">Serviços</string>
     <string name="action_cadastrar_servico">Cadastrar serviços</string>
+    <string name="cadNomeServico">Serviço: </string>
+    <string name="cadNomeServicoDado"></string>
+    <string name="cadTempoEstimadoServico">Tempo estimado:</string>
+    <string name="cadTempoEstimadoServicoDado"></string>
+    <string name="cadTempoAplicacaoServico">Tempo aplicação:</string>
+    <string name="cadTempoAplicacaoServicoDado"></string>
+    <string name="cadPreçoServico">Preço:</string>
+    <string name="cadPreçoServicoDado"></string>
+    <string name="cadServicoBtn">Cadastrar</string>
+
 </resources>

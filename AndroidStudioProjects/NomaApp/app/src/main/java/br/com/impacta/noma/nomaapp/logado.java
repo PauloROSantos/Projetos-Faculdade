@@ -3,18 +3,13 @@ package br.com.impacta.noma.nomaapp;
 import android.content.Intent;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ShareActionProvider;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.support.v7.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.app.SearchManager;
-import android.widget.SearchView.OnQueryTextListener;
 
 import java.util.Arrays;
 
@@ -115,7 +110,7 @@ public class logado extends DebugActivity {
     }
 
     public void servicos () {
-        Intent it = new Intent(logado.this,Servicos.class);
+        Intent it = new Intent(logado.this,ServicosActivity.class);
         startActivity(it);
     }
 
